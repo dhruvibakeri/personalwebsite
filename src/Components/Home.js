@@ -2,7 +2,6 @@ import React from "react";
 import Introduction from "./Introduction";
 import Projects from "./Projects";
 import Recipes from "./Recipes";
-import pic from "../images/flower-pic.png";
 import spic from "../images/small-flower.png";
 
 export default class Home extends React.Component {
