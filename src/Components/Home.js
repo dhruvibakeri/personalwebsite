@@ -10,15 +10,15 @@ export default class Home extends React.Component {
       <div className="fill-window">
         <div className="parent">
           <Introduction />
-          <img className="img-cover-left" src={spic} />
+          <img className="img-cover-left" src={spic} alt="" />
         </div>
         <div className="parent">
           <Projects />
-          <img className="img-cover-right" src={spic} />
+          <img className="img-cover-right" src={spic} alt="" />
         </div>
         <div className="parent">
           <Recipes />
-          <img className="img-cover-left" src={spic} />
+          <img className="img-cover-left" src={spic} alt="" />
         </div>
       </div>
     );
