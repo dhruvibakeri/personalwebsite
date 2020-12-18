@@ -2,24 +2,24 @@ import React from "react";
 import Introduction from "./Introduction";
 import Projects from "./Projects";
 import Recipes from "./Recipes";
-import Sunsets from "./Sunsets";
+import pic from "../images/flower-pic.png";
+import spic from "../images/small-flower.png";
 
 export default class Home extends React.Component {
   render() {
     return (
-      <div>
-        Home
-        <div>
+      <div className="fill-window">
+        <div className="parent">
           <Introduction />
+          <img className="img-cover-left" src={spic} />
         </div>
-        <div>
+        <div className="parent">
           <Projects />
+          <img className="img-cover-right" src={spic} />
         </div>
-        <div>
+        <div className="parent">
           <Recipes />
-        </div>
-        <div>
-          <Sunsets />
+          <img className="img-cover-left" src={spic} />
         </div>
       </div>
     );
