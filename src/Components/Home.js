@@ -7,7 +7,7 @@ import spic from "../images/small-flower.png";
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="fill-window">
+      <div className="fill-window" id="intro">
         <div className="parent">
           <Introduction />
           <img className="img-cover-left" src={spic} alt="" />
@@ -15,6 +15,7 @@ export default class Home extends React.Component {
         <div className="parent">
           <Projects />
           <img className="img-cover-right" src={spic} alt="" />
+          <div id="recipe"></div>
         </div>
         <div className="parent">
           <Recipes />
