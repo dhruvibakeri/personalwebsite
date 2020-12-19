@@ -16,9 +16,8 @@ export default class Introduction extends React.Component {
     return (
       <div>
         <div className="child">
-          <MenuItems noMenu={this.noMenuJSX} defaultView={true} />
           <div className="row"></div>
-
+          <MenuItems noMenu={this.noMenuJSX} defaultView={false} intro={true} />
           <div className="row">
             <div className="col-sm-5">pic from mounica</div>
             <div className="col-sm-5">
@@ -35,8 +34,6 @@ export default class Introduction extends React.Component {
               </p>
             </div>
           </div>
-          <br />
-          <br />
           <br />
           <br />
           <br />
