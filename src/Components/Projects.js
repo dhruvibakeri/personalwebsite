@@ -15,7 +15,6 @@ export default class Projects extends React.Component {
           <MenuItems noMenu={this.noMenuJSX} defaultView={false} />
         </div>
         <CardComponent
-          rowOrientation="right"
           listOfCards={[
             { image: project, id: 0 },
             { image: project, id: 1 },

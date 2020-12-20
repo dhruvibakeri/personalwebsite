@@ -1,5 +1,6 @@
 import React from "react";
 import CardComponent from "./CardComponent";
+import MenuItems from "./MenuItems";
 import bagel from "../images/bagel.JPG";
 import pestoswirl from "../images/pestoswirl.jpg";
 import buns from "../images/buns.jpg";
@@ -15,13 +16,13 @@ export default class Recipes extends React.Component {
   noMenuJSX = "";
 
   render() {
-    //<MenuItems noMenu={this.noMenuJSX} defaultView={false} />
     return (
       <div className="child">
         <div className="same-line-elements">
           <h1 className="change-font heading-place font-weight-bold">
             Recipes
           </h1>
+          <MenuItems noMenu={this.noMenuJSX} defaultView={false} />
         </div>
         <CardComponent
           listOfCards={[

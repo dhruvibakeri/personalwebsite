@@ -16,7 +16,7 @@ export default class CardComponent extends React.Component {
           {this.state.listOfCard.map((card) => {
             return (
               <div key={card.id}>
-                <div className="col-sm-2.4">
+                <div className="">
                   <div id="cardhover">
                     <div className="card style-card">
                       <img
