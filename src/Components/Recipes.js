@@ -1,6 +1,5 @@
 import React from "react";
 import CardComponent from "./CardComponent";
-import MenuItems from "./MenuItems";
 import bagel from "../images/bagel.JPG";
 import pestoswirl from "../images/pestoswirl.jpg";
 import buns from "../images/buns.jpg";
