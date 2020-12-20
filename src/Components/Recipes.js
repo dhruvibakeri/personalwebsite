@@ -19,21 +19,23 @@ export default class Recipes extends React.Component {
     return (
       <div className="child">
         <div className="same-line-elements">
-          <h1 className="change-font heading-place">Recipes</h1>
+          <h1 className="change-font heading-place font-weight-bold">
+            Recipes
+          </h1>
           <MenuItems noMenu={this.noMenuJSX} defaultView={false} />
         </div>
         <CardComponent
           listOfCards={[
-            { image: bagel, id: 0 },
-            { image: pestoswirl, id: 1 },
-            { image: buns, id: 2 },
-            { image: foccrumb, id: 3 },
-            { image: naan, id: 4 },
-            { image: innout, id: 5 },
-            { image: bao, id: 6 },
-            { image: noodles, id: 7 },
-            { image: podidosa, id: 8 },
-            { image: pizza, id: 9 },
+            { image: bagel, id: 0, label: "Whole wheat bagels" },
+            { image: pestoswirl, id: 1, label: "Pesto Swirl loaf" },
+            { image: buns, id: 2, label: "Burger buns" },
+            { image: foccrumb, id: 3, label: "Garlic and Rosemary focaccia" },
+            { image: naan, id: 4, label: " Hariyali Naan" },
+            { image: innout, id: 5, label: "Veggie Burger" },
+            { image: bao, id: 6, label: "Bao buns" },
+            { image: noodles, id: 7, label: "Honey chilli noodles" },
+            { image: podidosa, id: 8, label: "Ghee Podi Dosa" },
+            { image: pizza, id: 9, label: "Pizza" },
           ]}
         />
         <br />

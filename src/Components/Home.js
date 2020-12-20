@@ -3,6 +3,8 @@ import Introduction from "./Introduction";
 import Projects from "./Projects";
 import Recipes from "./Recipes";
 import spic from "../images/small-flower.png";
+import recipe from "../images/recipe.png";
+import project from "../images/project.png";
 
 export default class Home extends React.Component {
   render() {
@@ -14,12 +16,12 @@ export default class Home extends React.Component {
         </div>
         <div className="parent">
           <Projects />
-          <img className="img-cover-right" src={spic} alt="" />
+          <img className="img-cover-right" src={project} alt="" />
           <div id="recipe"></div>
         </div>
         <div className="parent">
           <Recipes />
-          <img className="img-cover-left" src={spic} alt="" />
+          <img className="img-cover-left-rec" src={recipe} alt="" />
         </div>
       </div>
     );

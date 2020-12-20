@@ -20,6 +20,7 @@
 }
 
 .style-card {
+  border: 0px !important ;
   position: relative;
   margin-left: 30px;
   margin-right: 30px;
@@ -33,10 +34,32 @@
   margin-bottom: 100px;
 }
 
-#cardhover div:hover {
+#cardhover div:hover .imghover {
+  transition: 0.5s ease;
+  opacity: 0.3;
   transform: scale(1.3, 1.3);
   -webkit-transform: scale(1.3, 1.3);
   -moz-transform: scale(1.3, 1.3);
+}
+
+#cardhover div:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
 }
 
 .row-padding-left {
@@ -134,12 +157,21 @@
 .img-cover-left {
   position: absolute;
   /* position in top left of #tobecovered */
-  top: 59%; /* top of #tobecovered */
+  bottom: 0%; /* top of #tobecovered 59%;*/
   left: 0; /* left of #tobecovered */
   max-width: 120.9px;
   max-height: 234.7826087008px;
   width: 30%;
   height: 58.6956521752%;
+}
+
+.img-cover-left-rec {
+  position: absolute;
+  /* position in top left of #tobecovered */
+  bottom: 0%; /* top of #tobecovered 59%;*/
+  left: 0; /* left of #tobecovered */
+  max-width: 130px;
+  max-height: 159.4047619013px;
 }
 
 .text-large {
@@ -155,10 +187,11 @@
 .img-cover-right {
   position: absolute;
   /* position in top left of #tobecovered */
-  top: 59%; /* top of #tobecovered */
-  left: 89%; /* left of #tobecovered */
-  max-width: 120px;
-  max-height: 234.7826087008px;
+  /*top: 59%; /* top of #tobecovered */
+  bottom: -7%;
+  left: 88%; /* left of #tobecovered */
+  max-width: 150px;
+  max-height: 165.7205240213px;
   width: 30%;
   height: 58.6956521752%;
 }
@@ -174,8 +207,40 @@
   .img-cover-left {
     display: none;
   }
+
+  .img-cover-left-rec {
+    display: none;
+  }
   .menu-items {
     display: none;
+  }
+  .row-padding-left {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+
+  .row-padding-right {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+
+  .style-card {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 5rem;
+    width: auto;
+  }
+
+  .text {
+    color: black;
+    font-size: 16px;
   }
 }
 

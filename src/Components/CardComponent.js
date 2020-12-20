@@ -16,10 +16,19 @@ export default class CardComponent extends React.Component {
           {this.state.listOfCard.map((card) => {
             return (
               <div key={card.id}>
-                <div className="col-sm-2.5">
+                <div className="col-sm-2.4">
                   <div id="cardhover">
                     <div className="card style-card">
-                      <img className="card-img-top" src={card.image} alt="" />
+                      <img
+                        className="card-img-top imghover"
+                        src={card.image}
+                        alt=""
+                      />
+                      <div className="middle">
+                        <div className="text change-font font-weight-bold">
+                          {card.label}
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
