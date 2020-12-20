@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../Documents/Dhruvi_Resume.pdf";
 
 export default class MenuItems extends React.Component {
   state = {
@@ -11,7 +12,7 @@ export default class MenuItems extends React.Component {
     });
   };
 
-  menuJSX = (
+  menuIntroJSX = (
     <div className="menu-items" id="nav">
       <a href="#intro">
         <button className="btn btn-lg float-right">
@@ -28,9 +29,11 @@ export default class MenuItems extends React.Component {
       </a>
       <br />
       <br />
-      <button className="btn  btn-lg float-right">
-        <span className="lead">Resume</span>
-      </button>
+      <a href={resume} target="_blank" rel="noreferrer">
+        <button className="btn  btn-lg float-right">
+          <span className="lead">Resume</span>
+        </button>
+      </a>
       <br />
       <br />
       <a href="#recipe">
@@ -41,9 +44,35 @@ export default class MenuItems extends React.Component {
     </div>
   );
 
+  menuOtherJSX = (
+    <div className="menu-items same-line-elements" id="nav">
+      <a href="#intro">
+        <button className="btn btn-lg float-right">
+          {" "}
+          <span className="lead">Intro</span>
+        </button>
+      </a>
+      <a href="#project">
+        <button className="btn btn-lg float-right">
+          <span className="lead">Projects</span>
+        </button>
+      </a>
+      <a href={resume} target="_blank" rel="noreferrer">
+        <button className="btn  btn-lg float-right">
+          <span className="lead">Resume</span>
+        </button>
+      </a>
+      <a href="#recipe">
+        <button className="btn btn-lg float-right">
+          <span className="lead">Recipes</span>
+        </button>
+      </a>
+    </div>
+  );
+
   render() {
     if (this.props.intro) {
-      return this.menuJSX;
+      return this.menuIntroJSX;
     }
     return (
       <div className=" menu-items ">
@@ -55,7 +84,7 @@ export default class MenuItems extends React.Component {
         </button>
         <br />
         <br />
-        {this.state.viewMenu ? this.menuJSX : this.props.noMenu}
+        {this.state.viewMenu ? this.menuOtherJSX : this.props.noMenu}
       </div>
     );
   }

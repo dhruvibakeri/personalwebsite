@@ -6,11 +6,9 @@ import pestoswirl from "../images/pestoswirl.jpg";
 import buns from "../images/buns.jpg";
 import foccrumb from "../images/focacciacrumb.jpg";
 import naan from "../images/naan.jpg";
-import innout from "../images/innout.jpg";
 import bao from "../images/bao.jpg";
 import noodles from "../images/noodles.jpg";
 import podidosa from "../images/podidosa.jpg";
-import pizza from "../images/pizza.jpg";
 
 export default class Recipes extends React.Component {
   noMenuJSX = "";
@@ -31,11 +29,9 @@ export default class Recipes extends React.Component {
             { image: buns, id: 2, label: "Burger buns" },
             { image: foccrumb, id: 3, label: "Garlic and Rosemary focaccia" },
             { image: naan, id: 4, label: " Hariyali Naan" },
-            { image: innout, id: 5, label: "Veggie Burger" },
-            { image: bao, id: 6, label: "Bao buns" },
-            { image: noodles, id: 7, label: "Honey chilli noodles" },
-            { image: podidosa, id: 8, label: "Ghee Podi Dosa" },
-            { image: pizza, id: 9, label: "Pizza" },
+            { image: bao, id: 5, label: "Bao buns" },
+            { image: noodles, id: 6, label: "Honey chilli noodles" },
+            { image: podidosa, id: 7, label: "Ghee Podi Dosa" },
           ]}
         />
         <br />
