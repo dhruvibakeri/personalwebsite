@@ -24,14 +24,49 @@ export default class Recipes extends React.Component {
         </div>
         <CardComponent
           listOfCards={[
-            { image: bagel, id: 0, label: "Whole wheat bagels" },
-            { image: pestoswirl, id: 1, label: "Pesto Swirl loaf" },
-            { image: buns, id: 2, label: "Burger buns" },
-            { image: foccrumb, id: 3, label: "Garlic and Rosemary focaccia" },
-            { image: naan, id: 4, label: " Hariyali Naan" },
-            { image: bao, id: 5, label: "Bao buns" },
-            { image: noodles, id: 6, label: "Honey chilli noodles" },
-            { image: podidosa, id: 7, label: "Ghee Podi Dosa" },
+            {
+              image: bagel,
+              id: 0,
+              label: "Whole wheat bagels",
+              link: "/recipes/bagel",
+            },
+            {
+              image: pestoswirl,
+              id: 1,
+              label: "Pesto Swirl loaf",
+              link: "/recipes/pestoswirlloaf",
+            },
+            {
+              image: buns,
+              id: 2,
+              label: "Burger buns",
+              link: "/recipes/burgerbuns",
+            },
+            {
+              image: foccrumb,
+              id: 3,
+              label: "Garlic and Rosemary focaccia",
+              link: "/recipes/focaccia",
+            },
+            {
+              image: naan,
+              id: 4,
+              label: " Hariyali Naan",
+              link: "/recipes/naan",
+            },
+            { image: bao, id: 5, label: "Bao buns", link: "/recipes/baobuns" },
+            {
+              image: noodles,
+              id: 6,
+              label: "Honey chilli noodles",
+              link: "/recipes/honeychillinoodles",
+            },
+            {
+              image: podidosa,
+              id: 7,
+              label: "Ghee Podi Dosa",
+              link: "/recipes/podidosa",
+            },
           ]}
         />
         <br />

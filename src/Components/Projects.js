@@ -25,8 +25,6 @@ export default class Projects extends React.Component {
             { image: project, id: 5 },
             { image: project, id: 6 },
             { image: project, id: 7 },
-            { image: project, id: 8 },
-            { image: project, id: 9 },
           ]}
         />
         <br />
