@@ -190,9 +190,9 @@ a {
   position: absolute;
   /* position in top left of #tobecovered */
   bottom: 0%; /* top of #tobecovered 59%;*/
-  left: 10px; /* left of #tobecovered */
-  max-width: 90px;
-  max-height: 180.7692307785px;
+  left: 0; /* left of #tobecovered */
+  max-width: 120.9px;
+  max-height: 234.7826087008px;
   width: 30%;
   height: 58.6956521752%;
 }

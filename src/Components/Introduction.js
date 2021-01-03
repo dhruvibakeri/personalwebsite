@@ -1,7 +1,7 @@
 import React from "react";
 import MenuItems from "./MenuItems";
 /*import intropic from "../images/intropic.jpg";*/
-import intropiceye from "../images/intropiceyebrow.jpg";
+import intropiceye from "../images/intropic.jpg";
 
 export default class Introduction extends React.Component {
   noMenuJSX = (
