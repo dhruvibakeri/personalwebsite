@@ -1,4 +1,4 @@
-### This website is hosted at [`dhruvibakeri.com`](dhruvibakeri.com)
+### This website is hosted at [`dhruvibakeri.com`](https://dhruvibakeri.com/)
 
 ## Design :
 
