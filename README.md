@@ -1,15 +1,3 @@
-### This website is hosted at [`dhruvibakeri.com`](https://dhruvibakeri.com/)
+## This website is built using ReactJS
 
-## Design :
-
-### Home/Introduction page
-
-![home](./design/1.png)
-
-### Projects page
-
-![projects](./design/2.png)
-
-### Recipes page
-
-![recipes](./design/3.png)
+## [`dhruvibakeri.com`](https://dhruvibakeri.com/)
