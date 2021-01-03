@@ -9,7 +9,7 @@ export default class Projects extends React.Component {
     return (
       <div className="child">
         <div className="same-line-elements">
-          <h1 className="change-font heading-place font-weight-bold">
+          <h1 className="change-font-2 heading-place font-weight-bold">
             Projects
           </h1>
           <MenuItems noMenu={this.noMenuJSX} defaultView={false} />

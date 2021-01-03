@@ -1,6 +1,7 @@
 import React from "react";
 import MenuItems from "./MenuItems";
-import intropic from "../images/intropic.jpg";
+/*import intropic from "../images/intropic.jpg";*/
+import intropiceye from "../images/intropiceyebrow.jpg";
 
 export default class Introduction extends React.Component {
   noMenuJSX = (
@@ -22,7 +23,7 @@ export default class Introduction extends React.Component {
           <div className="row">
             <div className="col-md-1"></div>
             <div className="col-md-5">
-              <img className="intro-pic" src={intropic} alt="" />
+              <img className="intro-pic" src={intropiceye} alt="" />
             </div>
             <div className="col-md-5">
               <h2 className="text-left change-font font-weight-bold intro-heading">

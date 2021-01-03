@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
 
 .change-font {
   font-family: "Arima Madurai", sans-serif !important;
+  /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; Crimson Pro", serif*/
+}
+
+.change-font-2 {
+  font-family: "Arima Madurai", sans-serif !important;
+  /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; Crimson Pro", serif*/
 }
 
 .App {
@@ -66,6 +75,14 @@
   font-size: 25px;
 }
 
+a {
+  color: inherit !important;
+}
+
+.contact-padding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .row-padding {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -76,6 +93,11 @@
 .heading-place {
   margin-top: 15px;
   margin-left: 15px;
+}
+
+.heading-place-center {
+  margin-top: 15px;
+  margin-left: 40%;
 }
 
 .same-line-elements {
@@ -104,6 +126,13 @@
 }
 
 #nav button:hover {
+  transition: 0.5s ease;
+  transform: scale(1.3, 1.3);
+  -webkit-transform: scale(1.3, 1.3);
+  -moz-transform: scale(1.3, 1.3);
+}
+
+#contact-icons a:hover {
   transition: 0.5s ease;
   transform: scale(1.3, 1.3);
   -webkit-transform: scale(1.3, 1.3);
@@ -161,9 +190,9 @@
   position: absolute;
   /* position in top left of #tobecovered */
   bottom: 0%; /* top of #tobecovered 59%;*/
-  left: 0; /* left of #tobecovered */
-  max-width: 120.9px;
-  max-height: 234.7826087008px;
+  left: 10px; /* left of #tobecovered */
+  max-width: 90px;
+  max-height: 180.7692307785px;
   width: 30%;
   height: 58.6956521752%;
 }

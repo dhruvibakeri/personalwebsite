@@ -49,7 +49,7 @@ export default class MenuItems extends React.Component {
       <a href="#intro">
         <button className="btn btn-lg float-right">
           {" "}
-          <span className="lead">Intro</span>
+          <span className="lead ">Intro</span>
         </button>
       </a>
       <a href="#project">

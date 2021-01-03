@@ -2,7 +2,8 @@ import React from "react";
 import Introduction from "./Introduction";
 import Projects from "./Projects";
 import Recipes from "./Recipes";
-import spic from "../images/small-flower.png";
+import spic from "../images/orange-flower.png";
+import Contact from "./Contact";
 
 export default class Home extends React.Component {
   render() {
@@ -18,6 +19,9 @@ export default class Home extends React.Component {
         </div>
         <div className="parent">
           <Recipes />
+        </div>
+        <div className="parent">
+          <Contact />
         </div>
       </div>
     );
