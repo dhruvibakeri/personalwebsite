@@ -1,5 +1,6 @@
 import React from "react";
 import MenuItems from "./MenuItems";
+import intropic from "../images/intropic.jpg";
 
 export default class Introduction extends React.Component {
   noMenuJSX = (
@@ -19,12 +20,15 @@ export default class Introduction extends React.Component {
           <div className="row"></div>
           <MenuItems noMenu={this.noMenuJSX} defaultView={false} intro={true} />
           <div className="row">
-            <div className="col-sm-5">pic from mounica</div>
-            <div className="col-sm-5">
-              <h2 className="text-left change-font font-weight-bold">
+            <div className="col-md-1"></div>
+            <div className="col-md-5">
+              <img className="intro-pic" src={intropic} alt="" />
+            </div>
+            <div className="col-md-5">
+              <h2 className="text-left change-font font-weight-bold intro-heading">
                 Hi, I'm Dhruvi!
               </h2>
-              <p className="text-left text-large">
+              <p className="text-left text-large intro-body">
                 <span className="change-font">
                   I'm currently a senior at Northeastern University and am
                   majoring in Computer Science. My main interests include
