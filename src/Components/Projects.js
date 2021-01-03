@@ -1,7 +1,13 @@
 import React from "react";
 import MenuItems from "./MenuItems";
 import CardComponent from "./CardComponent";
-import project from "../images/project.jpg";
+import fishcoly from "../images/fish-coly.png";
+import fishremote from "../images/fish-remote.png";
+import travelweb from "../images/travelweb.png";
+import personalweb from "../images/personalweb.png";
+import animator from "../images/animator.png";
+import virus from "../images/virus.png";
+import robot from "../images/robot.png";
 
 export default class Projects extends React.Component {
   noMenuJSX = "";
@@ -17,14 +23,13 @@ export default class Projects extends React.Component {
         <CardComponent
           rowOrientation="right"
           listOfCards={[
-            { image: project, id: 0 },
-            { image: project, id: 1 },
-            { image: project, id: 2 },
-            { image: project, id: 3 },
-            { image: project, id: 4 },
-            { image: project, id: 5 },
-            { image: project, id: 6 },
-            { image: project, id: 7 },
+            { image: fishcoly, id: 0 },
+            { image: fishremote, id: 1 },
+            { image: travelweb, id: 2 },
+            { image: personalweb, id: 3 },
+            { image: animator, id: 4 },
+            { image: virus, id: 5 },
+            { image: robot, id: 6 },
           ]}
         />
         <br />
