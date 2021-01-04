@@ -22,9 +22,15 @@ export default class CardComponent extends React.Component {
                         alt=""
                       />
                       <div className="middle">
-                        <div className="text change-font font-weight-bold">
-                          {card.label}
-                        </div>
+                        {this.props.giveImg === "true" ? (
+                          <div>
+                            <img src={card.logo} alt="" />
+                          </div>
+                        ) : (
+                          <div className="text change-font font-weight-bold">
+                            {card.label}
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>

@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .change-font {
   font-family: "Arima Madurai", sans-serif !important;
@@ -17,6 +18,10 @@
   text-align: center;
 }
 
+.middle img {
+  max-width: 150px;
+  max-height: 150px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -262,6 +267,10 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+  .middle img {
+    max-width: 70px;
+    max-height: 70px;
+  }
   .img-cover-right {
     display: none;
   }

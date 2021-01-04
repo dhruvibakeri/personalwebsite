@@ -8,6 +8,13 @@ import personalweb from "../images/personalweb.png";
 import animator from "../images/animator.png";
 import virus from "../images/virus.png";
 import robot from "../images/robot.png";
+import fishColyLogo from "../images/fish-coly-logo.png";
+import fishRemoteLogo from "../images/fish-remote-logo.png";
+import travelLogo from "../images/travel-logo.png";
+import personalLogo from "../images/personal-logo.png";
+import virusLogo from "../images/virus-logo.png";
+import animatorLogo from "../images/animator-logo.png";
+import robotLogo from "../images/robot-logo.png";
 
 export default class Projects extends React.Component {
   noMenuJSX = "";
@@ -23,14 +30,15 @@ export default class Projects extends React.Component {
         <CardComponent
           rowOrientation="right"
           listOfCards={[
-            { image: fishcoly, id: 0 },
-            { image: fishremote, id: 1 },
-            { image: travelweb, id: 2 },
-            { image: personalweb, id: 3 },
-            { image: animator, id: 4 },
-            { image: virus, id: 5 },
-            { image: robot, id: 6 },
+            { image: fishcoly, id: 0, logo: fishColyLogo },
+            { image: fishremote, id: 1, logo: fishRemoteLogo },
+            { image: travelweb, id: 2, logo: travelLogo },
+            { image: personalweb, id: 3, logo: personalLogo },
+            { image: animator, id: 4, logo: animatorLogo },
+            { image: virus, id: 5, logo: virusLogo },
+            { image: robot, id: 6, logo: robotLogo },
           ]}
+          giveImg="true"
         />
         <br />
       </div>
