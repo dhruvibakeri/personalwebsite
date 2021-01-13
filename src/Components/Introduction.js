@@ -26,6 +26,7 @@ export default class Introduction extends React.Component {
               <img className="intro-pic" src={intropiceye} alt="" />
             </div>
             <div className="col-md-5">
+              <br />
               <h2 className="text-left change-font font-weight-bold intro-heading">
                 Hi, I'm Dhruvi!
               </h2>
@@ -34,7 +35,7 @@ export default class Introduction extends React.Component {
                   I'm currently a senior at Northeastern University and am
                   majoring in Computer Science. My main interests include
                   full-stack web development and cybersecurity. In my free time
-                  I like to bake bread and sometimes paint.
+                  I like to cook and sometimes paint.
                 </span>
               </p>
             </div>
@@ -43,6 +44,7 @@ export default class Introduction extends React.Component {
           <br />
           <br />
           <br />
+
           <div id="project"></div>
         </div>
       </div>

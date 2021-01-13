@@ -72,7 +72,15 @@ export default class MenuItems extends React.Component {
 
   render() {
     if (this.props.intro) {
-      return this.menuIntroJSX;
+      return (
+        <div>
+          <div className="pad-menu">{this.menuOtherJSX}</div>
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+      );
     }
     return (
       <div className=" menu-items ">

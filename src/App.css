@@ -3,14 +3,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap");
 
 .change-font {
   font-family: "Arima Madurai", sans-serif !important;
-  /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; Crimson Pro", serif*/
+  /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; "Crimson Pro", serif*/
 }
 
 .change-font-2 {
-  font-family: "Arima Madurai", sans-serif !important;
+  font-family: "Yusei Magic", sans-serif;
   /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; Crimson Pro", serif*/
 }
 
@@ -120,6 +122,10 @@ a {
   margin-right: 120px;
 }
 
+.pad-menu {
+  padding-left: 65%;
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -169,8 +175,8 @@ a {
 }
 
 .intro-pic {
-  width: 400px;
-  height: 350.1816294849px;
+  width: 360px;
+  height: 357.7332570227px;
 }
 /*1927 1687*/
 .parent {
@@ -266,6 +272,11 @@ a {
   }
 }
 
+@media screen and (max-width: 1181px) {
+  .pad-menu {
+    display: none;
+  }
+}
 @media screen and (max-width: 900px) {
   .middle img {
     max-width: 70px;
