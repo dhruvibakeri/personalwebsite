@@ -38,7 +38,7 @@ export default class MenuItems extends React.Component {
       <br />
       <a href="#recipe">
         <button className="btn btn-lg float-right">
-          <span className="lead">Recipes</span>
+          <span className="lead">Hobbies</span>
         </button>
       </a>
     </div>
@@ -64,16 +64,57 @@ export default class MenuItems extends React.Component {
       </a>
       <a href="#recipe">
         <button className="btn btn-lg float-right">
-          <span className="lead">Recipes</span>
+          <span className="lead">Hobbies</span>
         </button>
       </a>
     </div>
+  );
+
+  mobileMenu = (
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#intro">
+        Menu
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#intro">
+            Intro <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="#project">
+            Projects
+          </a>
+          <a
+            class="nav-item nav-link"
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
+          <a class="nav-item nav-link" href="#recipe">
+            Hobbies
+          </a>
+        </div>
+      </div>
+    </nav>
   );
 
   render() {
     if (this.props.intro) {
       return (
         <div>
+          <div className="mobile-menu">{this.mobileMenu}</div>
           <div className="pad-menu">{this.menuOtherJSX}</div>
           <br />
           <br />
@@ -83,16 +124,18 @@ export default class MenuItems extends React.Component {
       );
     }
     return (
-      <div className=" menu-items ">
-        <button
-          onClick={this.toggleMenu}
-          className="btn btn-outline-secondary btn-sm float-right btn-left"
-        >
-          {this.state.viewMenu ? "Hide Menu" : "View Menu"}
-        </button>
-        <br />
-        <br />
-        {this.state.viewMenu ? this.menuOtherJSX : this.props.noMenu}
+      <div>
+        <div className=" menu-items ">
+          <button
+            onClick={this.toggleMenu}
+            className="btn btn-outline-secondary btn-sm float-right btn-left"
+          >
+            {this.state.viewMenu ? "Hide Menu" : "View Menu"}
+          </button>
+          <br />
+          <br />
+          {this.state.viewMenu ? this.menuOtherJSX : this.props.noMenu}
+        </div>
       </div>
     );
   }

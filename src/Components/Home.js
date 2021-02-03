@@ -1,9 +1,9 @@
 import React from "react";
 import Introduction from "./Introduction";
 import Projects from "./Projects";
-import Recipes from "./Recipes";
 import spic from "../images/small-flower.png";
 import Contact from "./Contact";
+import Hobbies from "./Hobbies";
 
 export default class Home extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class Home extends React.Component {
           <div id="recipe"></div>
         </div>
         <div className="parent">
-          <Recipes />
+          <Hobbies />
         </div>
         <div className="parent">
           <Contact />

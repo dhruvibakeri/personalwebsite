@@ -29,10 +29,11 @@ export default class Introduction extends React.Component {
               </h2>
               <p className="text-left text-large intro-body">
                 <span className="change-font">
-                  I'm currently a senior at Northeastern University and am
-                  majoring in Computer Science. My main interests include
-                  full-stack web development and cybersecurity. In my free time
-                  I like to cook and sometimes paint.
+                  I'm a Computer Science major at Northeastern University. I'm
+                  currently a senior and will graduate in May'21. My main
+                  interests include full-stack web development and
+                  cybersecurity. In my free time I enjoy cooking, baking bread,
+                  and painting!
                 </span>
               </p>
             </div>
