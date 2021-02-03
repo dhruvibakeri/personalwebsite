@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../Documents/Dhruvi_Resume.pdf";
+import "bootstrap/js/src/collapse.js";
 
 export default class MenuItems extends React.Component {
   state = {
@@ -79,14 +80,14 @@ export default class MenuItems extends React.Component {
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="#intro">
             Intro <span class="sr-only">(current)</span>
