@@ -5,6 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .change-font {
   font-family: "Arima Madurai", sans-serif !important;
@@ -13,6 +15,16 @@
 
 .change-font-2 {
   font-family: "Yusei Magic", sans-serif;
+  /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; Crimson Pro", serif*/
+}
+
+.change-font-3 {
+  font-family: "Cedarville Cursive", cursive;
+  /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; Crimson Pro", serif*/
+}
+
+.change-font-4 {
+  font-family: "Montserrat", sans-serif;
   /*"Lora", serif; "Playfair Display", serif; "Arima Madurai", sans-serif !important; Crimson Pro", serif*/
 }
 
@@ -42,8 +54,57 @@
   }
 }
 
-.bagel-photo {
+.card-columns {
+  display: inline-block !important;
+}
+
+.polaroid-left {
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
   height: 50%;
+  transform: rotate(-7deg);
+}
+
+.polaroid {
+  max-width: 300px;
+  height: 50%;
+}
+
+.polaroid-right {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  max-width: 300px;
+  height: 50%;
+  transform: rotate(7deg);
+}
+
+.polaroid-mobile {
+  margin: auto;
+  max-width: 250px;
+  height: 80%;
+}
+
+.descp-mobile {
+  font-size: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pol-photo {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.pol-photo-mobile {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 299px) {
@@ -319,6 +380,10 @@ a {
   font-size: 145%;
 }
 
+.text-xlarge {
+  font-size: 155%;
+}
+
 .text-medium {
   font-size: 110%;
 }
@@ -326,6 +391,12 @@ a {
 .text-pad {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.text-pad-2 {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .center-text {
@@ -349,6 +420,24 @@ a {
 .menu-items {
   position: relative;
 }
+
+.pad-polaroid {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 770px) {
+  .big-show {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 771px) {
+  .small-show {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1135px) {
   .text-large {
     font-size: 140%;
@@ -385,6 +474,9 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+  .text-shrink {
+    font-size: 60%;
+  }
   .middle img {
     max-width: 70px;
     max-height: 70px;

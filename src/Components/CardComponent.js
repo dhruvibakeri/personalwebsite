@@ -33,6 +33,9 @@ export default class CardComponent extends React.Component {
                         )}
                       </div>
                     </div>
+                    <div className=" style-card change-font-4 text-shrink font-weight-bold">
+                      {card.text}
+                    </div>
                   </div>
                 </Link>
               </div>

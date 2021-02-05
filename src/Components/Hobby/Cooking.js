@@ -1,12 +1,12 @@
 import React from "react";
-import FriendsBody from "./FriendsBody";
+import CookingBody from "./CookingBody";
 
-export default class Friends extends React.Component {
+export default class Cooking extends React.Component {
   render() {
     return (
       <div className="fill-window" id="intro">
         <div className="parent">
-          <FriendsBody />
+          <CookingBody />
         </div>
       </div>
     );

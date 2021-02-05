@@ -1,12 +1,12 @@
 import React from "react";
-import BagelRecipeBody from "./BagelRecipeBody";
+import BreadBody from "./BreadBody";
 
-export default class BagelRecipe extends React.Component {
+export default class Bread extends React.Component {
   render() {
     return (
       <div className="fill-window" id="intro">
         <div className="parent">
-          <BagelRecipeBody />
+          <BreadBody />
         </div>
       </div>
     );

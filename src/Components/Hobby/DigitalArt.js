@@ -1,12 +1,12 @@
 import React from "react";
-import BagelRecipeBody from "./BagelRecipeBody";
+import DigitalArtBody from "./DigitalArtBody";
 
-export default class BagelRecipe extends React.Component {
+export default class DigitalArt extends React.Component {
   render() {
     return (
       <div className="fill-window" id="intro">
         <div className="parent">
-          <BagelRecipeBody />
+          <DigitalArtBody />
         </div>
       </div>
     );

@@ -129,7 +129,7 @@ export default class MenuItems extends React.Component {
         <div className=" menu-items ">
           <button
             onClick={this.toggleMenu}
-            className="btn btn-outline-secondary btn-sm float-right btn-left"
+            className="btn btn-secondary btn-sm float-right btn-left"
           >
             {this.state.viewMenu ? "Hide Menu" : "View Menu"}
           </button>
