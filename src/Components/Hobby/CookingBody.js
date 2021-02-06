@@ -12,6 +12,7 @@ import naan from "../../images/cooking/naan.jpg";
 import pt1 from "../../images/cooking/pt1.JPG";
 import pt2 from "../../images/cooking/pt2.JPG";
 import pt3 from "../../images/cooking/pt3.JPG";
+import pt4 from "../../images/cooking/pt4.jpg";
 import piz1 from "../../images/cooking/piz1.JPG";
 import piz2 from "../../images/cooking/piz2.JPG";
 import par1 from "../../images/cooking/par1.jpg";
@@ -107,7 +108,12 @@ export default class CookingBody extends React.Component {
     {
       id: 12,
       photo: pt3,
-      label1: "",
+      label1: "My Pita Thyme",
+    },
+    {
+      id: 13,
+      photo: pt4,
+      label1: "OG Pita Thyme",
     },
   ];
 

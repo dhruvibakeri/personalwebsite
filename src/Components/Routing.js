@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import Bread from "./Hobby/Bread";
 import Cooking from "./Hobby/Cooking";
 import DigitalArt from "./Hobby/DigitalArt";
+import Garden from "./Hobby/Garden";
 import Home from "./Home";
 import FishColy from "./Projects/fishcoly";
 import FishRem from "./Projects/fishrem";
@@ -19,6 +20,7 @@ export default class Routing extends React.Component {
           <Route path="/" exact={true} component={Home} />
           <Route path="/hobbies/cooking" exact={true} component={Cooking} />
           <Route path="/hobbies/bread" exact={true} component={Bread} />
+          <Route path="/hobbies/garden" exact={true} component={Garden} />
           <Route
             path="/hobbies/digitalart"
             exact={true}

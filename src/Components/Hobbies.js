@@ -29,13 +29,13 @@ const listOfHobbies = [
   {
     image: gardening,
     id: 3,
-    label: "growing green chillies",
-    link: "/recipes/podidosa",
+    label: "first attempt at gardening",
+    link: "/hobbies/garden",
   },
   {
     image: ftime,
     id: 4,
-    label: "focaccia timeline",
+    label: "focaccia",
     link: "/recipes/podidosa",
   },
 ];
