@@ -21,13 +21,13 @@ export default class FishRemBody extends React.Component {
         </footer>
         <br />
         <div className="row">
-          <div className="col-sm-3">
+          <div className="">
             <a
               href="https://github.com/dhruvibakeri/fishgame-remoteplayers"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="btn btn-dark">Github Repo</button>
+              <button className="btn btn-dark home-button">Github Repo</button>
             </a>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default class FishRemBody extends React.Component {
           players using Vue.
           <br />
           <br />
-          <video width="700" height="400" controls>
+          <video width="60%" height="auto" controls>
             <source src={vueplay} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

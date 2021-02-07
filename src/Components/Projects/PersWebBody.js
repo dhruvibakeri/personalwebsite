@@ -19,13 +19,13 @@ export default class PersWebBody extends React.Component {
         </footer>
         <br />
         <div className="row">
-          <div className="col-sm-3">
+          <div className="">
             <a
               href="https://github.com/dhruvibakeri/personalwebsite"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="btn btn-dark">Github Repo</button>
+              <button className="btn btn-dark home-button">Github Repo</button>
             </a>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default class PersWebBody extends React.Component {
               can see, each section is essentially a box with a border and
               content lies within that border. Any future section additions
               would just be a new React Component with the appropriate CSS
-              class. The cards that you see in the Projects and Recipes section,
+              class. The cards that you see in the Projects and Hobbies section,
               are also a React Component. They take in the picture,link and
               hover action as props and because of that you can keep using the
               card components for different types of content.{" "}

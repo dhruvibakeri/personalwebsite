@@ -17,8 +17,8 @@ export default class DigitalArtBody extends React.Component {
             <div className="child">
               <div className="row" id="homebutton">
                 <Link to="/">
-                  <button className="btn btn-lg button-right">
-                    <span className="lead">Home</span>
+                  <button className="btn btn-secondary  home-button">
+                    Home
                   </button>
                 </Link>
               </div>

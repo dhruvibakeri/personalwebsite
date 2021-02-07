@@ -24,24 +24,30 @@ export default class FishColyBody extends React.Component {
           A two player game created with Colyseus
         </footer>
         <br />
-        <div className="row">
-          <div className="col-sm-3">
-            <a
-              href="https://github.com/dhruvibakeri/fishgame-colyseus"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="btn btn-dark">Github Repo</button>
-            </a>
-          </div>
-          <div className="col-sm-8">
-            <a
-              href="https://heythatsmyfish.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="btn btn-dark float-right">Play Game</button>
-            </a>
+        <div className="">
+          <div className="same-line-elements">
+            <div className="">
+              <a
+                href="https://github.com/dhruvibakeri/fishgame-colyseus"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-dark home-button">
+                  Github Repo
+                </button>
+              </a>
+            </div>
+            <div className="">
+              <a
+                href="https://heythatsmyfish.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-dark float-right home-button">
+                  Play Game
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="change-font-2 text-center text-medium text-pad">

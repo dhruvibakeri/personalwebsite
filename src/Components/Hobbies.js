@@ -5,7 +5,7 @@ import digitalart from "../images/digitalart.png";
 import bread from "../images/bread.png";
 import CardSlider from "./CardSlider";
 import gardening from "../images/gardening.png";
-import ftime from "../images/focacciatime.png";
+import sun from "../images/sunset.png";
 
 const listOfHobbies = [
   {
@@ -33,10 +33,10 @@ const listOfHobbies = [
     link: "/hobbies/garden",
   },
   {
-    image: ftime,
+    image: sun,
     id: 4,
-    label: "focaccia",
-    link: "/recipes/podidosa",
+    label: "",
+    link: "/hobbies/sunset",
   },
 ];
 
