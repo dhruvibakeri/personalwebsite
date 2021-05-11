@@ -31,7 +31,7 @@ export default class Introduction extends React.Component {
                 <span className="change-font">
                   I'm a Computer Science major at Northeastern University. I'm
                   currently a senior and will graduate in May'21. My main
-                  interests include front-end web development and cybersecurity.
+                  interests include software development and cybersecurity.
                   In my free time I enjoy cooking, baking bread, and painting!
                 </span>
               </p>
